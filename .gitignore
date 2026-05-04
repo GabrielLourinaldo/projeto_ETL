@@ -1,0 +1,14 @@
+# Ignorar ambiente virtual do Python
+venv/
+env/
+
+# Ignorar pastas de dados (NUNCA suba dados sensíveis de empresas para o GitHub)
+data/raw/
+data/processed/
+
+# Ignorar arquivos de variáveis de ambiente (senhas do banco de dados)
+.env
+
+# Ignorar arquivos temporários do Python
+__pycache__/
+*.pyc
